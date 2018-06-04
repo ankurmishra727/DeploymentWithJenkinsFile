@@ -13,7 +13,7 @@ node('worker_node') {
 
       stage('deploy') {
           
-         sh 'python test.py'
+         sh 'python test.py test1.py'
 
 
 	  }
